@@ -1,10 +1,12 @@
 package shoppinglist
-
+import(
+	"github.com/suchy1105/shopper"
+)
 //Shoppinglist object
 type Shoppinglist struct {
 	//	Date time.date
-	productlist [] product.Product
-	shop 		   Shop
+	productlist [] Product
+	shop 		   shop.Shop
 }
 
 //NewShoppinglist create shopping list

@@ -1,5 +1,7 @@
 package shop
-
+/*import(
+	"github.com/suchy1105/shopper"
+)*/
 //Shop strict
 type Shop struct {
 	Name          string
