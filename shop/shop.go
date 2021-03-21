@@ -1,4 +1,4 @@
-package shop
+package main
 
 //Shop strict
 type Shop struct {

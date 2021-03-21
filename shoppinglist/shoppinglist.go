@@ -1,4 +1,4 @@
-package shoppinglist
+package main
 
 //Shoppinglist object
 type Shoppinglist struct {
