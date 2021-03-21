@@ -1,9 +1,9 @@
-package main
+package shoppinglist
 
 //Shoppinglist object
 type Shoppinglist struct {
 	//	Date time.date
-	productlist [] Product
+	productlist [] product.Product
 	shop 		   Shop
 }
 
