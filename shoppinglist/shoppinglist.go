@@ -1,24 +1,23 @@
 package shoppinglist
 
-import{
-	"fmt"
-	"time"
+//Shoppinglist object
+type Shoppinglist struct {
+	//	Date time.date
+	productlist [] Product
+	shop 		   Shop
 }
-type Shoppinglist struct{
-	Date time.date
-	productlist [] product
-	shop Shop
-}
-func NewShoppinglist() *Shoppinglist{
-	sl =&Shoppinglist
+
+//NewShoppinglist create shopping list
+func NewShoppinglist() *Shoppinglist {
+	sl := &Shoppinglist{}
 	return sl
 }
-func (s *shoppinglist)sortbyshop(){
+func (s *Shoppinglist) sortbyshop() {
 
 }
-func (s *shoppinglist)addProduct(){
+func (s *Shoppinglist) addProduct() {
 
 }
-func (s *shoppinglist)removeProduct(){
+func (s *Shoppinglist) removeProduct() {
 
 }

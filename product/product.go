@@ -1,26 +1,34 @@
 package product
 
-import(
+import (
 	"fmt"
 )
-type product struct{ 
- 	Name string
- 	Quantity float
-	Category string
+
+//Product producjt
+type Product struct {
+	Name        string
+	Quantity    float32
+	Category    string
 	MeasureType string
 }
-func NewProduct(n string, q float, c string, m MeasureType)*product{
-	p:= &product{
-		Name:		n,
-		Quantity:	q,
-		Category:	c,
-		MeasureType	m,
+
+//NewProduct returns new product pointer
+func NewProduct(n string, q float32, c string, m string) *Product {
+	p := &Product{
+		Name:        n,
+		Quantity:    q,
+		Category:    c,
+		MeasureType: m,
 	}
 	return p
 }
-func Delete(){
+
+//Delete delate
+func Delete() {
 	fmt.Println("Deleted")
 }
-func NotAvailable(){
+
+//NotAvailable the
+func NotAvailable() {
 	fmt.Println("not available")
 }

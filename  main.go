@@ -6,5 +6,5 @@ import(
 )
 
 func main(){ 
-    fmt.println("karo")
+    fmt.Println("karo")
 }
