@@ -1,7 +1,9 @@
 package shop
-/*import(
-	"github.com/suchy1105/shopper"
-)*/
+
+import (
+	"github.com/suchy1105/shopper/api"
+)
+
 //Shop strict
 type Shop struct {
 	Name          string
@@ -19,6 +21,7 @@ func NewShop(name string, street string, number int, city string) *Shop {
 		Number: number,
 		City:   city,
 	}
+
 	return s
 }
 
