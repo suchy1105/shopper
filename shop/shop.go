@@ -28,7 +28,7 @@ func NewShop(name string, street string, number int, city string) *Shop {
 //Save end modification
 func (s *Shop) Save() bool {
 	var success bool
-	api.Push()
+//	api.Push()
 	return success
 }
 
