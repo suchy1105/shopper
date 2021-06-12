@@ -6,8 +6,8 @@ import(
 //Shoppinglist object
 type Shoppinglist struct {
 	//	Date time.date
-	productlist [] product.Product
-	shop 		   shop.Shop
+	Productlist [] product.Product
+	Shops 		[] shop.Shop
 }
 
 //NewShoppinglist create shopping list
