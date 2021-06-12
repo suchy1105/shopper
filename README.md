@@ -1,1 +1,2 @@
-### Application to boost shopping 
+### Application to boost shopping and decrease costs
+
