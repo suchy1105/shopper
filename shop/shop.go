@@ -1,7 +1,7 @@
 package shop
 
 import (
-	"github.com/suchy1105/shopper/api"
+	//"github.com/suchy1105/shopper/api"
 	"github.com/suchy1105/shopper/product"
 )
 
