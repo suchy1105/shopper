@@ -41,8 +41,10 @@ func (s *Shop) Save() bool {
 }
 
 //Edit edit shop
-func (s *Shop) Edit() bool {
+func (s *Shop) Edit(name string, street string, number int, city string, id int, wgps float32, hgps float32) bool {
 	var success bool
-	//fill
+	s.Name=name
+	s.Street=street
+	
 	return success
 }
